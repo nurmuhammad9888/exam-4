@@ -10,18 +10,64 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="bg-info">
+<body class="bg-white">
     <!-- SITE HEADER START -->
+    <div class="hedaer-top">
+        <div class="container">
+            <address class="hedaer-top__address d-none my-2 d-md-flex align-items-center mx-auto justify-content-end me-3">
+                <p class="hedaer-top__text mt-0 mb-0 d-flex align-items-center">Company Address type here</p>
+                <p class="hedaer-top__text mt-0 mb-0 d-flex align-items-center">+94 000 00000</p>
+            </address>
+        </div>
+    </div>
+    
     <header class="site-header">
-        
+        <div class="container">
+            <div class="site-header__inner">
+                <nav class="d-block d-md-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-between nav-mobli d-md-inline-block justify-content-md-start">
+                        <a class="logo" href="./index.html">
+                            <img src="./images/LOGO.svg" width="71" height="39" alt="site logo">
+                        </a>
+                        <button class="burgermenu d-block d-md-none" type="button"></button>
+                    </div>
+                    <div class="d-block d-md-flex align-items-center navbar-mbile end-0 start-0">
+                        <ul class="nav justify-content-end d-block d-md-flex text-center text-md-start">
+                            <li class="nav-item py-3 py-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                                <a class="nav-link  px-0 text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item py-3 py-md-0">
+                                <a class="nav-link  px-0 text-white" href="#">About us</a>
+                            </li>
+                            <li class="nav-item py-3 py-md-0">
+                                <a class="nav-link  px-0 text-white" href="#">Services</a>
+                            </li>
+                            <li class="nav-item py-3 py-md-0">
+                                <a class="nav-link  px-0 text-white">News</a>
+                            </li>
+                        </ul>
+                        <a class="text-decoration-none header-btn d-none d-md-inline-block bg-white text-center " href="#">Contact us</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
     <!-- SITE HEADER FINISH -->
     
     <!-- SITE MAIN START -->
     <main class="site-main">
         <!-- HERO SECTION START -->
-        <section class="hero">
-            <div class="container px-2">
+        
+        <section class="hero"> 
+            <div class="container">
+                <div class="hero-wrap">
+                    <strong class="hero-strong">Digital Marketing</strong>
+                    <h1 class="hero-title mb-0 fw-bold">Work that we produce for our clients</h1>
+                    <p class="hero-text mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                    <a class="hero-link text-decoration-none text-center d-inline-block text-white" href="#">Get more details</a>
+                </div>
+            </div>
+            <!-- <div class="container px-2">
                 <ul class="lis carusel">
                     <div class="card me-4" style="width: 18rem;">
                         <img src="..." class="card-img-top" width="150" height="60" alt="...">
@@ -64,8 +110,57 @@
                         </div>
                     </div>
                 </ul>
+            </div> -->
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="busness-wrap">
+                    <div class="busness_title-wrap mx-auto">
+                        <h2 class="busness_title text-center fw-semibold m-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </h2>
+                    </div>
+                    <div class="busness-text-wrap w-100 d-none d-md-block mt-5">
+                        <h3 class="busness-text-title">
+                            Lorem Ipsum
+                        </h3>
+                        <p class="busness-text m-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                    <img class="busnes-img" src="./images/hero-img.png" width="336" height="212" alt="busnes work">
+                </div>
             </div>
-            
+        </section>
+        
+        <section>
+            <div class="service-wrap busness_title-wrap mx-auto">
+                <h2 class="service-title  text-center fw-semibold">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </h2>
+                <p class="service-text m-0 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <ul class="row list-unstyled">
+                    <li class="col-12 service-item col-md-6 col-lg-4 text-center ">
+                        <p>Mobile Game Development</p>
+                    </li>
+                    <li class="col-12 service-item col-md-6 col-lg-4 text-center">
+                        <p>PC Game Development</p>
+                    </li>
+                    <li class="col-12 service-item col-md-6 col-lg-4 text-center">
+                        <p>PS4 Game Development</p>
+                    </li>
+                    <li class="col-12 service-item col-md-6 col-lg-4 text-center">
+                        <p>AR/VR Solutions</p>
+                    </li>
+                    <li class="col-12 service-item col-md-6 col-lg-4 text-center">
+                        <p>AR/ VR design</p>
+                    </li>
+                    <li class="col-12 service-item col-md-6 col-lg-4 text-center">
+                        <p>3D Modelings</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- HERO SECTION FINISH -->
     </main>

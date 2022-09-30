@@ -39,6 +39,14 @@
 // });
 // lis carusel slick-initialized slick-slider
 
+let burgerMenu = document.querySelector(".burgermenu");
+let setiNav = document.querySelector(".navbar-mbile");
+
+burgerMenu.addEventListener("click" , function(){
+    setiNav.classList.toggle("navbar-mbile-show");
+    document.body.classList.toggle("body-show");
+})
+
 $('.carusel').slick({
     centerMode: true,
     centerPadding: '10px',

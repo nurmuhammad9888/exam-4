@@ -1,0 +1,57 @@
+.service-wrap{
+    margin-top: 101px;
+}
+.service-title{
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.service-item{
+    &::before{
+        content: '';
+        display: inline-block;
+        width: 65px;
+        height: 65px;
+        background-image: url("../../images/moble.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &::after{
+        content: '';
+        display: inline-block;
+        width: 21px;
+        height: 18px;
+        background-image: url("../../images/arrow-left.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &:nth-child(2)::before{
+        background-image: url("../../images/game\ pc.svg");
+    }
+    &:nth-child(3)::before{
+        background-image: url("../../images/ps4.svg");
+    }
+    &:nth-child(4)::before{
+        background-image: url("../../images/arvr.svg");
+    }
+    &:nth-child(5)::before{
+        background-image: url("../../images/arvrdesegen.svg");
+    }
+    &:nth-child(6)::before{
+        background-image: url("../../images/3dmifil.svg");
+    }
+}
+
+@media only screen and (min-width:768px){
+    .service-wrap{
+        margin-top: 165px;
+    }
+}
+@media only screen and (min-width:1000px){
+    .service-title{
+        margin-bottom: 24px;
+        font-size: 25px;
+    }
+}
