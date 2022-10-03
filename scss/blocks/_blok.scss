@@ -1,0 +1,66 @@
+.blok{
+    padding-bottom: 49px;
+}
+.blok-img{
+    width: 100%;
+}
+.blok-title {
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+.blok-text {
+    margin-bottom: 18px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #515151;
+}
+.blok-text-two {
+    margin-bottom: 46px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #515151;
+}
+.blok-link {
+    margin-bottom: 66px;
+    display: inline-block;
+    padding: 13px 10px;
+    width: 177px;
+    background-color: var(--main-color-orange);
+    font-size: 16px;
+    line-height: 24px;
+}
+@include mobile-first (700px){
+    .blok{
+        padding-top: 65px;
+        padding-bottom: 125px;
+    }
+    .blok-img{
+        max-width: 651px;
+    }
+    .blok-text-wrap {
+        max-width: 536px;
+    }
+    .blok-title {
+        margin-top: 60px;
+        margin-bottom: 43px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .blok-text,
+    .blok-text-two{
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+@include mobile-first (768px){
+    .blok-link {
+        margin-bottom: 0;
+    }
+}
+@include mobile-first (1230px){
+.blok-text-wrap{
+    margin-left: 67px;
+}
+}

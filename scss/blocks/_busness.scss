@@ -1,44 +1,43 @@
-.busness_title{
+.business-title{
     color: var(--main-text-color-blueBlack);
     font-size: 16px;
 }
-.busness-wrap{
+.business-wrap{
     margin-top: 48px;
 }
-.busness-text-wrap{
+.business-text-wrap{
     max-width: 545px;
 }
-.busness-text-title{
+.business-text-title{
     font-size: 30px;
     margin-bottom: 32px;
 }
-.busness-text,
+.business-text,
 .service-text{
-    color: #525252;
+    color: var(--main-text-color-p);
 }
-.busnes-img{
+.business-img{
     padding-top: 42px;
     width: 100%;
     margin-left: -20px;
 }
-@media only screen and (min-width:650px){
-    .busness_title-wrap{
-        width: 100%;
+@include mobile-first (650px){
+    .business-title-wrap{
         max-width: 500px;
     }
-    .busness-wrap{
+    .business-wrap{
         margin-top: 83px;
         margin-left: 71px;
     }
 }
-@media only screen and (min-width:1000px){
-    .busness_title-wrap{
+@include mobile-first (1000px){
+    .business-title-wrap{
         max-width: 826px;
     }
-    .busness_title{
+    .business-title{
         font-size: 25px;
     }
-    .busnes-img{
+    .business-img{
         padding-top: 0;
         margin-left: 0;
         width: 100%;

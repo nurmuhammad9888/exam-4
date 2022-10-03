@@ -1,0 +1,90 @@
+.carusel-wrapper{
+    background-color: #F5F5F5;
+    padding-top: 55px;
+    padding-bottom: 140px;
+}
+.carusel-text-wrap{
+    margin-bottom: 65px;
+    max-width: 545px;
+}
+.carusel-title {
+    margin-bottom: 32px;
+}
+.carusel-text {
+    color: var(--main-text-color-p);
+}
+.card-link{
+    &:after{
+        margin-left: 12px;
+        content: '';
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        background-image: url("../../images/arrow-left.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.card {
+    margin-right: 38px;
+    padding: 30px 31px 24px 28px;
+    max-width: 299px;
+    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.one{
+    background: rgba(12, 190, 100, 0.15);
+    color: #0CBE64;
+} 
+.two{
+    background: rgba(220, 0, 0, 0.1);
+    color: #DC0000;
+}
+.thre{
+    color: #B000DC;
+    background: rgba(176, 0, 220, 0.11);
+}
+.foor{
+    background: rgba(0, 88, 220, 0.09);
+    color: #0058DC;
+}
+.card-text-span {
+    margin-bottom: 19px;
+    padding: 7px 35px 6px 14px;
+    font-size: 14px;
+    border-radius: 8px; 
+}
+.card-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.card-text {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: var(--main-text-color-p);
+}
+.card-link {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--main-color-orange);
+}
+@include mobile-first (400px){
+    .card {
+        max-width: 378px;
+        padding: 35px 39px 39px 35px;
+    }
+}
+@include mobile-first (768px){
+    .carusel-wrapper{
+        padding-top: 69px;
+        padding-bottom: 100px;
+    }
+    .carusel-card{
+        margin-left: 71px;
+    }
+    .card-text {
+        margin-bottom: 28px;
+        font-size: 14px;
+    }
+}

@@ -5,7 +5,7 @@
     &:nth-child(1){
         margin-right: 100px;
     }
-    &:nth-child(1)::before{
+    &::before{
         margin-right: 12px;
         content: '';
         display: inline-block;
@@ -18,14 +18,7 @@
     }
     &:nth-child(2)::before{
         margin-right: 6px;
-        content: '';
-        display: inline-block;
-        width: 15px;
-        height: 15px;
         background-image: url("../../images/telephone.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
     }
 }
 .site-header{
@@ -51,6 +44,9 @@
     padding: 10px 10px 11px 10px;
     border-radius: 6px;
     color: var(--main-color-orange);
+    &:hover{
+        color: var(--main-color-orange);
+    }
 }
 .nav-mobli{
     padding: 20px 0;
@@ -65,7 +61,10 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.navbar-mbile{
+.burgermenu-show{
+    background-image: url("../../images/burger-menu.svg");
+}
+.navbar-mobile{
     position: absolute;
     top: 10%;
     margin: 0 auto;
@@ -74,11 +73,11 @@
     transition: transform 0.5s ease;
     background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
 }
-.navbar-mbile-show{
+.navbar-mobile-show{
     transform: translateY(0%);
 }
-@media only screen and (min-width:768px){
-    .navbar-mbile{
+@include mobile-first (768px){
+    .navbar-mobile{
         position: static;
         width: auto;
         margin: 0;
@@ -87,12 +86,12 @@
         margin-right: 20px;
         padding: 0;
     }
-    .navbar-mbile{
+    .navbar-mobile{
         transform: translateY(0%);
         transition: transform 0s ease;
     }
 }
-@media only screen and (min-width:870px){
+@include mobile-first (870px){
     .nav-item{
         &:nth-child(1){
             margin-right: 87px;
