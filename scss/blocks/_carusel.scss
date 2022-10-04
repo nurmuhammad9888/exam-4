@@ -4,7 +4,7 @@
     padding-bottom: 140px;
 }
 .carusel-text-wrap{
-    margin-bottom: 65px;
+    margin-bottom: 33px;
     max-width: 545px;
 }
 .carusel-title {
@@ -15,7 +15,7 @@
 }
 .card-link{
     &:after{
-        margin-left: 12px;
+        margin-left: 9px;
         content: '';
         display: inline-block;
         width: 11px;
@@ -50,13 +50,13 @@
     color: #0058DC;
 }
 .card-text-span {
-    margin-bottom: 19px;
-    padding: 7px 35px 6px 14px;
+    margin-bottom: 17px;
+    padding: 6px 25px 5px 11px;
     font-size: 14px;
     border-radius: 8px; 
 }
 .card-title {
-    margin-bottom: 16px;
+    margin-bottom: 13px;
     font-size: 20px;
 }
 .card-text {
@@ -86,5 +86,20 @@
     .card-text {
         margin-bottom: 28px;
         font-size: 14px;
+    }
+    .carusel-text-wrap{
+        margin-bottom: 65px;
+    }
+    .card-link{
+        &:after{
+            margin-left: 12px;
+        }
+    }
+    .card-text-span {
+        margin-bottom: 19px;
+        padding: 7px 35px 6px 14px;
+    }
+    .card-title {
+        margin-bottom: 16px;
     }
 }

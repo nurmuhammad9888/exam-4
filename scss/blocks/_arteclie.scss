@@ -1,7 +1,5 @@
 .site-article{
     max-width: 1170px;
-}.site-article-wrapper{
-    
 }
 .site-article-wrapper-text {
     max-width: 545px;
@@ -20,8 +18,6 @@
     padding: 30px 27px 23px 21px;
     background: #1B1B1B;
     border-radius: 15px;
-}
-.site-article-form-wrap {
 }
 .article-form-text-wrap {
     max-width: 525px;
@@ -90,12 +86,12 @@ form{
         max-width: 385px;
     }
     .article-input{
-        padding: 14px 20px;
+        padding: 14px 120px 14px 20px;
         max-width: 385px;
     }
     .article-btn{
-        top: calc(8% + 0px) ;
-        padding: 8px 9px 13px 16px;
+        top: calc(11% + 0px) ;
+        padding: 8px 13px 9px 22px;
         
     }
 }

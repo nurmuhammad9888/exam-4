@@ -7,12 +7,6 @@ burgerMenu.addEventListener("click" , function(){
     document.body.classList.toggle("body-show");
 })
 
-// $('.carusel-js').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 3
-// });
-
 $('.carusel-js').slick({
     centerMode: true,
     centerPadding: '10px',

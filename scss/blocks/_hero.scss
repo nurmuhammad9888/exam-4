@@ -1,3 +1,6 @@
+.hero-wrapper{
+    max-width: 1440px;
+}
 .hero{
     background-image: url("../../images/bg-header-line.png");
     background-size: 100% 180px;
@@ -22,12 +25,12 @@
     margin-top: 28px;
     font-weight: 500;
     line-height: 200%;
+    font-size: 14px;
 }
 .hero-link{
     margin-top: 35px;
-    width: 100%;
-    max-width: 195px;
-    padding: 14px 10px 15px 10px;
+    max-width: 168px;
+    padding: 13px 10px 11px 10px;
     background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
     border-radius: 40px;
     font-weight: 500;
@@ -42,7 +45,7 @@
     .hero-wrap{
         width: 100%;
         max-width: 527px;
-        margin-left: 85px;
+        margin-left: 71px;
         padding-top: 128px;
         padding-bottom: 158px;
     }
@@ -51,12 +54,6 @@
         background-size: cover;
         background-position: center;
     }
-    .hero-wrap{
-        width: 100%;
-        margin-left: 71px; 
-        padding-top: 128px;
-        padding-bottom: 158px;
-    } 
     .hero-title{
         font-size: 50px;
         margin-top: 17px;
@@ -66,8 +63,11 @@
     }
     .hero-text{
         margin-top: 26px;
+        font-size: 16px;
     }
     .hero-link{
         margin-top: 50px;
+        max-width: 195px;
+        padding: 14px 10px 15px 10px;
     }
 }
