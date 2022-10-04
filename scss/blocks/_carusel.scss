@@ -68,6 +68,9 @@
     font-weight: 500;
     font-size: 14px;
     color: var(--main-color-orange);
+    &:hover{
+    color: var(--main-color-orange);
+    }
 }
 @include mobile-first (400px){
     .card {
@@ -98,8 +101,5 @@
     .card-text-span {
         margin-bottom: 19px;
         padding: 7px 35px 6px 14px;
-    }
-    .card-title {
-        margin-bottom: 16px;
     }
 }
