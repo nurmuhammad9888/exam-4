@@ -11,14 +11,14 @@
         display: inline-block;
         width: 10px;
         height: 15px;
-        background-image: url("../../images/lokation.svg");
+        background-image: url("../images/lokation.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
     }
     &:nth-child(2)::before{
         margin-right: 6px;
-        background-image: url("../../images/telephone.svg");
+        background-image: url("../images/telephone.svg");
     }
 }
 .site-header{
@@ -31,12 +31,11 @@
         display: inline-block;
         width: 11px;
         height:11px;
-        background-image: url("../../images/cricle.svg");
+        background-image: url("../images/cricle.svg");
         background-repeat: no-repeat;
     }
 }
 .header-btn{
-    margin-top: 15px;
     margin-bottom: 13px;
     width: 131px;
     font-size: 13px;
@@ -55,17 +54,17 @@
     background-color: transparent;
     width: 26px;
     height: 21px;
-    background-image: url("../../images/burger-menu.svg");
+    background-image: url("../images/burger-menu.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .burgermenu-show{
-    background-image: url("../../images/burger-menu.svg");
+    background-image: url("../images/close-btn.svg");
 }
 .navbar-mobile{
     position: absolute;
-    top: 10%;
+    top: 15%;
     width: 80%;
     transform: translateY(-150%);
     transition: transform 0.5s ease;

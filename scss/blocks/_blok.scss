@@ -1,9 +1,6 @@
 .blok{
     padding-bottom: 49px;
 }
-.blok-img{
-    width: 100%;
-}
 .blok-title {
     margin-bottom: 34px;
     font-weight: 500;
@@ -60,7 +57,7 @@
     }
 }
 @include mobile-first (1230px){
-.blok-text-wrap{
-    margin-left: 67px;
-}
+    .blok-text-wrap{
+        margin-left: 67px;
+    }
 }

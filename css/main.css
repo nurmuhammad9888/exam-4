@@ -4,7 +4,6 @@
   --main-text-color-p: #525252;
   --main-bg-color-footer: #1B1B1B;
   --main-color-orange:#DC7000;
-  /* --main-font-size : 16px; */
 }
 
 @font-face {
@@ -450,14 +449,14 @@ body {
   display: inline-block;
   width: 10px;
   height: 15px;
-  background-image: url("../../images/lokation.svg");
+  background-image: url("../images/lokation.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .hedaer-top__text:nth-child(2)::before {
   margin-right: 6px;
-  background-image: url("../../images/telephone.svg");
+  background-image: url("../images/telephone.svg");
 }
 
 .site-header {
@@ -470,12 +469,11 @@ body {
   display: inline-block;
   width: 11px;
   height: 11px;
-  background-image: url("../../images/cricle.svg");
+  background-image: url("../images/cricle.svg");
   background-repeat: no-repeat;
 }
 
 .header-btn {
-  margin-top: 15px;
   margin-bottom: 13px;
   width: 131px;
   font-size: 13px;
@@ -496,19 +494,19 @@ body {
   background-color: transparent;
   width: 26px;
   height: 21px;
-  background-image: url("../../images/burger-menu.svg");
+  background-image: url("../images/burger-menu.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .burgermenu-show {
-  background-image: url("../../images/burger-menu.svg");
+  background-image: url("../images/close-btn.svg");
 }
 
 .navbar-mobile {
   position: absolute;
-  top: 10%;
+  top: 15%;
   width: 80%;
   -webkit-transform: translateY(-150%);
           transform: translateY(-150%);
@@ -563,7 +561,7 @@ body {
 }
 
 .hero {
-  background-image: url("../../images/bg-header-line.png");
+  background-image: url("../images/bg-header-line.png");
   background-size: 100% 180px;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -617,7 +615,7 @@ body {
     padding-bottom: 158px;
   }
   .hero {
-    background-image: url("../../images/hero-img-bg.png");
+    background-image: url("../images/hero-img-bg.png");
     background-size: cover;
     background-position: center;
   }
@@ -663,7 +661,6 @@ body {
 
 .business-img {
   padding-top: 42px;
-  width: 100%;
   margin-left: -20px;
 }
 
@@ -686,7 +683,6 @@ body {
   .business-img {
     padding-top: 0;
     margin-left: 0;
-    width: 100%;
     max-width: 934px;
     height: 462px;
   }
@@ -724,7 +720,7 @@ body {
   display: block;
   width: 65px;
   height: 65px;
-  background-image: url("../../images/moble.svg");
+  background-image: url("../images/moble.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -734,25 +730,25 @@ body {
   display: inline-block;
   width: 21px;
   height: 18px;
-  background-image: url("../../images/arrow-left.svg");
+  background-image: url("../images/arrow-left.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .services-item:nth-child(2)::before {
-  background-image: url("../../images/game pc.svg");
+  background-image: url("../images/game pc.svg");
 }
 .services-item:nth-child(3)::before {
-  background-image: url("../../images/ps4.svg");
+  background-image: url("../images/ps4.svg");
 }
 .services-item:nth-child(4)::before {
-  background-image: url("../../images/arvr.svg");
+  background-image: url("../images/arvr.svg");
 }
 .services-item:nth-child(5)::before {
-  background-image: url("../../images/arvrdesegen.svg");
+  background-image: url("../images/arvrdesegen.svg");
 }
 .services-item:nth-child(6)::before {
-  background-image: url("../../images/3dmifil.svg");
+  background-image: url("../images/3dmifil.svg");
 }
 
 .services-item-text {
@@ -816,7 +812,7 @@ body {
   display: inline-block;
   width: 11px;
   height: 11px;
-  background-image: url("../../images/arrow-left.svg");
+  background-image: url("../images/arrow-left.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -998,10 +994,6 @@ body {
   padding-bottom: 49px;
 }
 
-.blok-img {
-  width: 100%;
-}
-
 .blok-title {
   margin-bottom: 34px;
   font-weight: 500;
@@ -1114,7 +1106,7 @@ form {
 }
 
 .article-input {
-  padding: 13px 15px;
+  padding: 13px 120px 13px 15px;
   max-width: 275px;
   border-radius: 8px;
   font-size: 13px;
@@ -1223,9 +1215,6 @@ form {
 @media only screen and (min-width: 1100px) {
   .footer-item:nth-child(1) {
     max-width: 372px;
-  }
-  .footer-item:nth-child(2) {
-    max-width: 90px;
   }
   .footer-item:nth-child(3) {
     max-width: 282px;
